@@ -18,11 +18,11 @@ public class MainQLSV {
         
         QLSV quanLy = new QLSV();
         
-        SinhVien sv1 = new SinhVien("Võ Sơn Vang", fDate.parse("06/12/1999"), 8.5f);
-        SinhVien sv2 = new SinhVien("Nguyễn Đình Thuận", fDate.parse("25/12/1999"), 8.0f);
-        SinhVien sv3 = new SinhVien("Lê Tấn Đạt", fDate.parse("5/2/1999"), 7.0f);
-        SinhVien sv4 = new SinhVien("Ngô Đắc Lương", fDate.parse("2/1/1999"), 8.7f);
-        SinhVien sv5 = new SinhVien("Võ Hữu Huy", fDate.parse("12/4/1999"), 9.0f);
+        SinhVien sv1 = new SinhVien("Nguyễn Văn d", fDate.parse("06/12/1999"), 8.5f);
+        SinhVien sv2 = new SinhVien("Nguyễn Văn f", fDate.parse("25/12/1999"), 8.0f);
+        SinhVien sv3 = new SinhVien("Nguyễn Văn a", fDate.parse("5/2/1999"), 7.0f);
+        SinhVien sv4 = new SinhVien("Nguyễn Văn c", fDate.parse("2/1/1999"), 8.7f);
+        SinhVien sv5 = new SinhVien("Nguyễn Văn v", fDate.parse("12/4/1999"), 9.0f);
         
         quanLy.them(sv1);
         quanLy.them(sv2);
