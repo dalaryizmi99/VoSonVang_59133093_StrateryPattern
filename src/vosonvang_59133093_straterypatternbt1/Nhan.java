@@ -9,11 +9,11 @@ package vosonvang_59133093_straterypatternbt1;
  *
  * @author Dalaryizmi
  */
-public class StrateryPatternDemoBT1 {
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+public class Nhan implements ITinh{
+
+    @Override
+    public float tinh(float a, float b) {
+        return a*b;
     }
+    
 }
